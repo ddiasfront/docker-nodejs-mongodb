@@ -1,14 +1,17 @@
 {
   "name": "docker-nodejs-setup",
   "version": "1.0.0",
-  "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon app/server.ts"
   },
   "dependencies": {
     "express": "^4.17.1",
     "mongoose": "^5.11.18",
     "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+    "sucrase": "^3.17.1",
+    "typescript": "^4.2.2"
   }
 }
